@@ -54,3 +54,5 @@ repos:
         entry: pytest --cov=. --cov-report=term-missing
         language: system
         pass_filenames: false
+
+exclude: '(tests)/.*'
